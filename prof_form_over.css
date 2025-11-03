@@ -141,7 +141,7 @@
     content: "Друзья и Клубы";
   }
   #profiles_show .c-history::before {
-    width: 100px;
+    width: 300px;
     content: "История";
   }
   #profiles_show .c-info .c-lists-info::before {
@@ -690,3 +690,4 @@
   }
 }
 /*------*/
+
