@@ -1,0 +1,68 @@
+@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/main_code_1.css");
+@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/main_code_2.css");
+@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/main_code_3.css");
+@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/main_code_4mob.css");
+@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/prof_form_over.css");
+body:after {
+  background-image: url("https://cdn.discordapp.com/attachments/648218000813719596/1108435408129380412/7.png");
+}
+
+.l-footer:after {
+  content: "*Yin Yang*";
+}
+
+@media screen and (min-width: 1px) {
+  .correct-mob-version {
+    color: inherit;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #profiles_show .profile-head::after {
+    background-image: url("https://i.imgur.com/k4wrNSg.jpeg");
+  }
+}
+
+@media screen and (min-width: 1200px) {
+.p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2, .p-profiles .profile-head .c-history.x3 {
+    background: none;
+    border-radius: 0%;
+    padding: 0px 5px 0px;
+    position: absolute;
+    right: 20px;
+    top: 330px;
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 1px) {
+  html:root {
+    --white-color: 219, 219, 219;
+    --light-color: 184, 184, 184;
+    --dark-color: 155, 155, 155;
+    --bright-color: 217, 217, 217;
+    --dull-color: 116, 116, 116;
+    --input-color: 120, 120, 120;
+    --hover-bottoms-1: 43, 43, 43;
+    --buttoms-color: 74, 74, 74;
+    --hover-buttoms-2: 140, 140, 140;
+    --very-high-rating: 156, 156, 156;
+    --high-rating: 105, 105, 105;
+    --average-rating: 82, 82, 82;
+    --small-rating: 64, 64, 64;
+    --time-filled: 92, 92, 92;
+    --time-empty: 43, 43, 43;
+    --anime-inprocess: 69, 146, 76;
+    --anime-complete: 41, 107, 47;
+    --manga-inprocess: 189, 15, 86;
+    --manga-complete: 153, 0, 62;
+    --hover-color: 255, 153, 51;
+    --shadows-color: 150, 150, 150;
+    --block-color: 69, 69, 69;
+    --menu-back: 21, 21, 21;
+    --nick-cover: 69, 69, 69;
+    --popup-color: 39, 39, 39;
+    --hundred: 1;
+  }
+}
+
