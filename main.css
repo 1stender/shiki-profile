@@ -1,14 +1,10 @@
-@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/main_code_1.css");
-@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/main_code_2.css");
-@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/main_code_3.css");
-@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/main_code_4mob.css");
-@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/prof_form_over.css");
+@import url("https://raw.githubusercontent.com/1stender/shiki-profile/refs/heads/main/main_code_1.css");
+@import url("https://raw.githubusercontent.com/1stender/shiki-profile/refs/heads/main/main_code_2.css");
+@import url("https://raw.githubusercontent.com/1stender/shiki-profile/refs/heads/main/main_code_3.css");
+@import url("https://raw.githubusercontent.com/1stender/shiki-profile/refs/heads/main/main_code_4mob.css");
+@import url("https://raw.githubusercontent.com/1stender/shiki-profile/refs/heads/main/prof_form_over.css");
 body:after {
   background-image: url("https://cdn.discordapp.com/attachments/648218000813719596/1108435408129380412/7.png");
-}
-
-.l-footer:after {
-  content: "*Yin Yang*";
 }
 
 @media screen and (min-width: 1px) {
