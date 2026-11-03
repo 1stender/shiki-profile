@@ -219,14 +219,31 @@
     right: 0px !important;
   }
   #profiles_show .profile-content {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      align-items: start;
+      column-gap: 24px;
+
       overflow: visible;
       width: 100%;
       right: auto;
       margin: 0 auto 0 auto !important;
       float: none;
       padding: 0 15px 0 15px;
-      transform: translateX(8vw);
-      box-shadow: inset 0px 37px 29px -18px rgba(var(--menu-back), var(--hundred));
+
+      box-shadow: inset 0px 37px 29px -18px
+          rgba(var(--menu-back), var(--hundred));
+  }
+
+  /* Блок «Обо мне» — слева */
+  #profiles_show .profile-content > .about.block {
+      grid-column: 1;
+      grid-row: 1;
+  }
+
+  /* Все остальные блоки — справа */
+  #profiles_show .profile-content > .block:not(.about) {
+      grid-column: 2;
   }
   #profiles_show .profile-head:before {
     content: "";
